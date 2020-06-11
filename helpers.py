@@ -1,4 +1,41 @@
-from main import alunos
+alunos = {
+    'jeffersons':
+        {
+            'nome': 'Jefferson Santos',
+            'trabalhos': [90, 95, 80, 100],
+            'provas': [90, 80],
+            'laboratorio': [70, 85.2]
+        },
+    'pedros':
+        {
+            'nome': 'Pedro Silva',
+            'trabalhos': [70, 95, 60, 100],
+            'provas': [90, 60],
+            'laboratorio': [90, 55.2]
+        },
+    "marias":
+        {
+            "nome": "Maria Souza",
+            "trabalhos": [77, 82, 23, 39],
+            "provas": [89, 95],
+            "laboratorio": [80, 80]
+        },
+    "angelaf":
+        {
+            "nome": "Angela Ferreira",
+            "trabalhos": [90, 95, 77, 71],
+            "provas": [80, 90],
+            "laboratorio": [69, 85.56]
+        },
+    "marcoss":
+        {
+            "nome": "Marcos Soares",
+            "trabalhos": [95, 89, 90, 86],
+            "provas": [100, 90],
+            "laboratorio": [80, 75.6]
+        }
+}
+
 
 # 1 Funcao = Obter média das notas
 def obter_media(notas):
